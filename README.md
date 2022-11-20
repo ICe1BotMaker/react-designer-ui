@@ -53,6 +53,7 @@ function App() {
 Here's a slightly difficult example of making a button:
 ```js
 import { Button } from 'react-designer-ui';
+import * as React from 'react';
 function App() {
     const [bool, setBool] = React.useState(0);
     const state = () => bool == 0 ? setBool(1) : setBool(0);
@@ -71,6 +72,7 @@ function App() {
 Here's a slightly difficult example of making a modal:
 ```js
 import { Button } from 'react-designer-ui';
+import * as React from 'react';
 let i = 0;
 function App() {
     const [num, setNum] = React.useState(i);
@@ -88,6 +90,7 @@ function App() {
 The following example combines buttons and modals:
 ```js
 import { Button } from 'react-designer-ui';
+import * as React from 'react';
 function App() {
     const [bool, setBool] = React.useState(false);
     const stateModal = () => bool ? setBool(false) : setBool(true);
