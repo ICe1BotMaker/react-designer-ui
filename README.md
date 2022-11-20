@@ -107,3 +107,9 @@ function App() {
 --------------
 + [Button](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/button)
 + [Modal](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/modal)
+
+<br>
+       
+## Version
+--------------
+ver 0.0.1 : Update Button, Modal Component
