@@ -77,4 +77,4 @@ function App() {
 --------------
 - [x] ver 0.0.1 : Update Button, Modal Component
 - [x] ver 1.0.0 : Update Input Component
-- [x] ver 1.0.1 / 1.0.2 : Bug Fixed
+- [x] ver 1.0.1 ~ 1.0.3 : Bug Fixed
