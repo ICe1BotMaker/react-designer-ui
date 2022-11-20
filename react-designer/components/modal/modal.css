@@ -16,20 +16,35 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
     z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
 }
 
 .rd-ui-modal-main {
-    height: 250px;
+    height: 75%;
 }
 
 .rd-ui-modal-buttons {
     width: 100%;
-    height: 50px;
+    height: 25%;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     align-items: center;
 }
 
-.rd-ui-modal-visible-false {
+.rd-ul-modal-buttonsDIV {
+    display: flex;
+    margin-left: -5px;
+    margin-right: 8px;
+}
+
+.rd-ul-modal-buttonsDIV button {
+    margin-left: 5px;
+}
+
+.outro {
     display: none;
 }

@@ -1,8 +1,8 @@
 import Button from '../button';
 import './modal.css';
 
-export default function Modal({ button = [{disabled: Boolean, id: String, key: String, onClick: Function}], visible = Boolean, children, style = {} }) {
-    const bgClasses = visible ? `rd-ui-modal-background` : `rd-ui-modal-visible-false`;
+export default function Modal({ button = [{buttonStyle: Object, disabled: Boolean, id: String, key: String, onClick: Function}], visible = Boolean, children, style = {} }) {
+    const bgClasses = visible ? `rd-ui-modal-background` : ` outro`;
     const classes = visible ? `rd-ui-modal` : ``;
 
     const buttons = () => {
@@ -10,7 +10,7 @@ export default function Modal({ button = [{disabled: Boolean, id: String, key: S
 
         for (let i = 0; i < button.length; i++) {
             const handleOnclick = button[i].onClick;
-            result.push(<Button key={button[i].id} disabled={button[i].disabled} onClick={handleOnclick}>{button[i].key}</Button>);
+            result.push(<Button style={button[i].buttonStyle} key={button[i].id} disabled={button[i].disabled} onClick={handleOnclick}>{button[i].key}</Button>);
         }
 
         return result;
@@ -23,9 +23,9 @@ export default function Modal({ button = [{disabled: Boolean, id: String, key: S
                     {visible ? children : ``}
                 </div>
                 <div className="rd-ui-modal-buttons">
-                    {
-                        buttons()
-                    }
+                    <div className="rd-ul-modal-buttonsDIV">
+                        { buttons() }
+                    </div>
                 </div>
             </div>
         </div>

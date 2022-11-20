@@ -1,0 +1,58 @@
+.rd-input-input-group {
+    width: 300px;
+    height: 50px;
+    border-bottom: 4px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.rd-input-input-underlined {
+    width: 100%;
+    height: 100%;
+}
+
+.rd-input-input-underlined input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    background: rgb(252, 252, 252);
+}
+
+.rd-input-input-label {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: gray;
+    cursor: text;
+    user-select: none;
+}
+
+.rd-input-input-helper {
+    position: absolute;
+    color: gray;
+    margin-top: 55px;
+    margin-left: 10px;
+    user-select: none;
+    font-size: 12.5px;
+}
+
+.rd-input-input-underlined input:hover {
+    background: rgb(248, 248, 248);
+}
+
+.rd-input-input-label:hover ~ input {
+    background: rgb(248, 248, 248);
+}
+
+.rd-input-input-underlined input:focus {
+    background: whitesmoke;
+}
+
+.rd-input-input-underlined input:valid {
+    background: whitesmoke;
+}
