@@ -100,3 +100,10 @@ function App() {
     );
 }
 ```
+
+<br>
+       
+## Components
+--------------
++ Button
++ Modal
