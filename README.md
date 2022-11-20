@@ -115,9 +115,12 @@ function App() {
 --------------
 + [Button](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/button)
 + [Modal](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/modal)
++ [Input](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/input)
 
 <br>
        
 ## Version
 --------------
 - [x] ver 0.0.1 : Update Button, Modal Component
+- [x] ver 1.0.0 : Update Input
+- [x] ver 1.0.1 / 1.0.2 : Bug Fixed
