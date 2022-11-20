@@ -13,6 +13,6 @@
   <p>This React Library is a self-produced project.</p>
   <p>It will be updated continuously and will be submitted as a portfolio.</p>
   <p>If you tell me about this library strictly, I will revise it quickly based on it.</p>
-  <br><br><br><hr>
+  <br><hr><br><br>
 </div>
 <h1></h1>
