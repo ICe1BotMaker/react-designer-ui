@@ -15,7 +15,7 @@
   <p>If you tell me about this library strictly, I will revise it quickly based on it.</p>
   <h1></h1>
 </div>
-
+<br><br>
 # Installation
 --------------
 Available as an npm package.
