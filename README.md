@@ -61,3 +61,18 @@ function App() {
     );
 }
 ```
+
+Here's a slightly difficult example of making a modal:
+```js
+import { Button } from 'react-designer-ui';
+let i = 0;
+function App() {
+    const [num, setNum] = React.useState(i);
+    const up = () => { i++; setNum(i); }
+    const down = () => { i--; setNum(i); }
+    
+    return (
+        <Modal visible={true} button={[{id: 1, key: "UP", onClick: up, disabled: false}, {id: 2, key: "DOWN", onClick: down, disabled: false}]}>{num}</Modal>
+    );
+}
+```
