@@ -1,0 +1,35 @@
+.rd-ui-modal {
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    background: white;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
+
+.rd-ui-modal-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.rd-ui-modal-main {
+    height: 250px;
+}
+
+.rd-ui-modal-buttons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rd-ui-modal-visible-false {
+    display: none;
+}
