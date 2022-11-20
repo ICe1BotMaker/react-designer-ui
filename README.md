@@ -112,4 +112,4 @@ function App() {
        
 ## Version
 --------------
-[ ] ver 0.0.1 : Update Button, Modal Component
+- [] ver 0.0.1 : Update Button, Modal Component
