@@ -2,5 +2,5 @@
 <div align="center">
   <h1>My First React Library.</h1>
   <br>
-  <h2>front-end designer</h2>
+  <p>front-end designer</p>
 </div>
