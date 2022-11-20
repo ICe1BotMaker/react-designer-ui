@@ -76,3 +76,19 @@ function App() {
     );
 }
 ```
+    
+The following example combines buttons and modals:
+```js
+import { Button } from 'react-designer-ui';
+function App() {
+    const [bool, setBool] = React.useState(false);
+    const stateModal = () => bool ? setBool(false) : setBool(true);
+
+    return (
+        <>
+            <Modal visible={bool} button={[{id: 1, key: "Ok", onClick: stateModal, disabled: false}, {id: 2, key: "Cancel", disabled: true}]}>test</Modal>
+            <Button disabled={false} onClick={stateModal}>Open Modal</Button>
+        </>
+    );
+}
+```
