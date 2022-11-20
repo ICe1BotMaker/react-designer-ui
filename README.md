@@ -19,4 +19,4 @@
     
 # Installation
 --------------
-Available as an npm package.
++ Available as an npm package.
