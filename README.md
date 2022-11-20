@@ -1,7 +1,7 @@
 <image src="https://ifh.cc/g/AwamJW.png">
 <div align="center">
   <h1>React Designer UI</h1>
-  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-0.0.1-green">
+  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-0.0.1-green?style=for-the-badge">
   <br><br>
   <h3><b>Skills</b></h3>
   <image src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
