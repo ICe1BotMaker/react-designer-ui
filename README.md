@@ -52,59 +52,13 @@ function App() {
 
 <br>
     
-Here's a slightly difficult example of making a button:
+Here's a simple example of creating a input:
 ```js
-import { Button } from 'react-designer-ui';
-import * as React from 'react';
+import { Input } from 'react-designer-ui';
     
 function App() {
-    const [bool, setBool] = React.useState(0);
-    const state = () => bool == 0 ? setBool(1) : setBool(0);
-    
     return (
-        <>
-            <p>Boolean: {bool}</p>
-            <Button disabled={false} onClick={state}>TEST</Button>
-        </>
-    );
-}
-```
-
-<br>
-    
-Here's a slightly difficult example of making a modal:
-```js
-import { Button } from 'react-designer-ui';
-import * as React from 'react';
-    
-let i = 0;
-function App() {
-    const [num, setNum] = React.useState(i);
-    const up = () => { i++; setNum(i); }
-    const down = () => { i--; setNum(i); }
-    
-    return (
-        <Modal visible={true} button={[{id: 1, key: "UP", onClick: up, disabled: false}, {id: 2, key: "DOWN", onClick: down, disabled: false}]}>{num}</Modal>
-    );
-}
-```
-
-<br>
-    
-The following example combines buttons and modals:
-```js
-import { Button } from 'react-designer-ui';
-import * as React from 'react';
-    
-function App() {
-    const [bool, setBool] = React.useState(false);
-    const stateModal = () => bool ? setBool(false) : setBool(true);
-
-    return (
-        <>
-            <Modal visible={bool} button={[{id: 1, key: "Ok", onClick: stateModal, disabled: false}, {id: 2, key: "Cancel", disabled: true}]}>test</Modal>
-            <Button disabled={false} onClick={stateModal}>Open Modal</Button>
-        </>
+        <Input placeholder="TEST PLACEHOLDER" helperText="TEST HELPERTEXT" />
     );
 }
 ```
