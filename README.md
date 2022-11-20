@@ -29,6 +29,7 @@ $ npm install react-designer-ui
 Here's a simple example of creating a button:
 ```js
 import { Button } from 'react-designer-ui';
+    
 function App() {
     return (
         <Button disabled={false}>TEST</Button>
@@ -41,6 +42,7 @@ function App() {
 Here's a simple example of creating a modal:
 ```js
 import { Modal } from 'react-designer-ui';
+    
 function App() {
     return (
         <Modal visible={true}>TEST</Modal>
@@ -54,6 +56,7 @@ Here's a slightly difficult example of making a button:
 ```js
 import { Button } from 'react-designer-ui';
 import * as React from 'react';
+    
 function App() {
     const [bool, setBool] = React.useState(0);
     const state = () => bool == 0 ? setBool(1) : setBool(0);
@@ -73,6 +76,7 @@ Here's a slightly difficult example of making a modal:
 ```js
 import { Button } from 'react-designer-ui';
 import * as React from 'react';
+    
 let i = 0;
 function App() {
     const [num, setNum] = React.useState(i);
@@ -91,6 +95,7 @@ The following example combines buttons and modals:
 ```js
 import { Button } from 'react-designer-ui';
 import * as React from 'react';
+    
 function App() {
     const [bool, setBool] = React.useState(false);
     const stateModal = () => bool ? setBool(false) : setBool(true);
