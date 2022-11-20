@@ -26,3 +26,38 @@ $ npm install react-designer-ui
 
 ## Usage
 --------------
+Here's a simple example of creating a button:
+```js
+import { Button } from 'react-designer-ui';
+function App() {
+    return (
+        <Button>TEST</Button>
+    );
+}
+```
+
+Here's a simple example of creating a modal:
+```js
+import { Modal } from 'react-designer-ui';
+function App() {
+    return (
+        <Modal visible={true}>TEST</Modal>
+    );
+}
+```
+    
+Here's a slightly difficult example of making a button:
+```js
+import { Button } from 'react-designer-ui';
+function App() {
+    const [bool, setBool] = React.useState(0);
+    const state = () => bool == 0 ? setBool(1) : setBool(0);
+    
+    return (
+        <>
+            <p>Boolean: {bool}</p>
+            <Button disabled={false} onClick={state}>TEST</Button>
+        </>
+    );
+}
+```
