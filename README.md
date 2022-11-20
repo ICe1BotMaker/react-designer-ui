@@ -21,5 +21,5 @@
 --------------
 + Available as an npm package.
 ```
-& npm install react-designer-ui
+$ npm install react-designer-ui
 ```
