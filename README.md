@@ -36,6 +36,7 @@ function App() {
 }
 ```
 
+    
 Here's a simple example of creating a modal:
 ```js
 import { Modal } from 'react-designer-ui';
@@ -45,6 +46,7 @@ function App() {
     );
 }
 ```
+    
     
 Here's a slightly difficult example of making a button:
 ```js
@@ -62,6 +64,7 @@ function App() {
 }
 ```
 
+    
 Here's a slightly difficult example of making a modal:
 ```js
 import { Button } from 'react-designer-ui';
