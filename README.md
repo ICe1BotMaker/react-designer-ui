@@ -31,7 +31,7 @@ Here's a simple example of creating a button:
 import { Button } from 'react-designer-ui';
 function App() {
     return (
-        <Button>TEST</Button>
+        <Button disabled={falsew}>TEST</Button>
     );
 }
 ```
