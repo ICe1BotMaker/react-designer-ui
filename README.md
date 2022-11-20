@@ -17,9 +17,12 @@
 </div>
 <br><br>
     
-# Installation
+## Installation
 --------------
 + Available as an npm package.
 ```
 $ npm install react-designer-ui
 ```
+
+## Usage
+--------------
