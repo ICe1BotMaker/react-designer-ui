@@ -10,6 +10,8 @@
   <image src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white">
   <br><br><br>
   <h3><b>Description</b></h3>
-  <p></p>
+  <p>This React Library is a self-produced project.</p>
+  <p>It will be updated continuously and will be submitted as a portfolio.</p>
+  <p>If you tell me about this library strictly, I will revise it quickly based on it.</p>
 </div>
 <h1></h1>
