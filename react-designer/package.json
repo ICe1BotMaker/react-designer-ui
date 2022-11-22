@@ -1,7 +1,7 @@
 {
   "name": "react-designer-ui",
   "description": "React Designer, Library.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "main": "index.js",
   "keywords" : ["react", "component", "design"],
@@ -43,6 +43,12 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
     ]
   }
 }
