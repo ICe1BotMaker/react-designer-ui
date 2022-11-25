@@ -1,7 +1,7 @@
 import './input.css';
 import React from 'react';
 
-export default function Input({ onKeyDown, onKeyUp, helperText, placeholder, style }) {
+export default function Input({ disabled = Boolean, onKeyDown = Function, onKeyUp = Function, helperText, placeholder, style = {} }) {
     return React.createElement(
         `div`, 
         {
@@ -26,7 +26,8 @@ export default function Input({ onKeyDown, onKeyUp, helperText, placeholder, sty
                 {
                     onKeyDown: onKeyDown,
                     onKeyUp: onKeyUp,
-                    required: true
+                    required: true,
+                    disabled: disabled
                 }
             )    
         )

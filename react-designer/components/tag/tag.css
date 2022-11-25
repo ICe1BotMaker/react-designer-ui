@@ -1,0 +1,28 @@
+.rd-ui-tag {
+    background: black;
+    display: inline;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 100px;
+    font-size: 12.5px;
+}
+
+.red {
+    background: rgb(255, 195, 195);
+    color: red;
+}
+
+.blue {
+    background: rgb(195, 195, 255);
+    color: blue;
+}
+
+.green {
+    background: rgb(195, 255, 195);
+    color: green;
+}
+
+.yellow {
+    background: rgb(255, 255, 191);
+    color: rgb(124, 124, 0);
+}

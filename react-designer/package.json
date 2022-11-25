@@ -1,7 +1,7 @@
 {
   "name": "react-designer-ui",
   "description": "React Designer, Library.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "main": "index.js",
   "keywords" : ["react", "component", "design"],
@@ -11,14 +11,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "antd-mobile": "^5.25.1",
-    "elpo-ui": "^1.0.6",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "styled-component": "^2.8.0",
-    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

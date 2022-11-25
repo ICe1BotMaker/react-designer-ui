@@ -1,7 +1,7 @@
 import './button.css';
 import React from 'react';
 
-export default function Button({ key, onClick, disabled = Boolean, children, style = {} }) {
+export default function Button({ key, onClick = Function, disabled = Boolean, children, style = {} }) {
     const classes = `rd-ui-button ${disabled ? `rd-ul-button-disabled`: `rd-ui-button-if`}`;
     const handleOnClick = disabled ? () => {} : onClick;
     

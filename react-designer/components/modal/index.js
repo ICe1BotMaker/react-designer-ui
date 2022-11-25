@@ -2,7 +2,7 @@ import './modal.css';
 import '../button/button.css';
 import React from 'react';
 
-export default function Modal({ button = [{buttonStyle: Object, disabled: Boolean, id: String, key: String, onClick: Function}], visible = Boolean, children, style = {} }) {
+export default function Modal({ visible = Boolean, children, style = {} }) {
     const bgClasses = visible ? `rd-ui-modal-background` : ` outro`;
     const classes = visible ? `rd-ui-modal` : ``;
 
