@@ -1,7 +1,7 @@
 <image src="https://ifh.cc/g/AwamJW.png">
 <div align="center">
   <h1>React Designer UI</h1>
-  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-1.0.4-green?style=flat-square">
+  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-1.0.5-green?style=flat-square">
   <br><br>
   <h3><b>Skills</b></h3>
   <image src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
@@ -70,6 +70,7 @@ function App() {
 + [Button](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/button)
 + [Modal](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/modal)
 + [Input](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/input)
++ [Tag](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/tag)
 
 <br>
        
@@ -79,3 +80,4 @@ function App() {
 - [x] ver 1.0.0 : Update Input Component
 - [x] ver 1.0.1 ~ 1.0.3 : Bug Fixed
 - [x] ver 1.0.4 : Update ( return jsx => return React-Element )
+- [x] ver 1.0.5 : Update Input ( disabled ), Tag Component
