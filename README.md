@@ -64,6 +64,19 @@ function App() {
 ```
 
 <br>
+    
+Here's a simple example of creating a tag:
+```js
+import { Tag } from 'react-designer-ui';
+    
+function App() {
+    return (
+        <Tag>TEST</Tag> // type prop: (red, blue, green, yellow)
+    );
+}
+```
+
+<br>
        
 ## Components
 --------------
