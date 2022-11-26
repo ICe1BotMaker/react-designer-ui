@@ -1,7 +1,7 @@
 <image src="https://ifh.cc/g/AwamJW.png">
 <div align="center">
   <h1>React Designer UI</h1>
-  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-1.0.5-green?style=flat-square">
+  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-1.0.6-green?style=flat-square">
   <br><br>
   <h3><b>Skills</b></h3>
   <image src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
@@ -77,6 +77,37 @@ function App() {
 ```
 
 <br>
+    
+Here's a simple example of creating a List:
+```js
+import { List } from 'react-designer-ui';
+    
+function App() {
+    return (
+        <List>
+            <li>TEST 1</li>
+            <li>TEST 2</li>
+            <li>TEST 3</li>
+        </List>
+    );
+}
+```
+
+<br>
+    
+Here's a simple example of creating a Switch:
+```js
+import { List } from 'react-designer-ui';
+    
+function App() {
+    return (
+        <Switch inputId="TEST" />
+        <Switch inputId="TEST2" disabled={true} />
+    );
+}
+```
+
+<br>
        
 ## Components
 --------------
@@ -84,6 +115,8 @@ function App() {
 + [Modal](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/modal)
 + [Input](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/input)
 + [Tag](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/tag)
++ [List](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/list)
++ [Switch](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/switch)
 
 <br>
        
@@ -94,3 +127,4 @@ function App() {
 - [x] ver 1.0.1 ~ 1.0.3 : Bug Fixed
 - [x] ver 1.0.4 : Update ( return jsx => return React-Element )
 - [x] ver 1.0.5 : Update Input ( disabled ), Tag Component
+- [x] ver 1.0.6 : Update List, Switch Compontent
