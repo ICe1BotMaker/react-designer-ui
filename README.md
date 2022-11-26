@@ -97,7 +97,7 @@ function App() {
     
 Here's a simple example of creating a Switch:
 ```js
-import { List } from 'react-designer-ui';
+import { Switch } from 'react-designer-ui';
     
 function App() {
     return (
