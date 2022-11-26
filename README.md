@@ -102,7 +102,6 @@ import { List } from 'react-designer-ui';
 function App() {
     return (
         <Switch inputId="TEST" />
-        <Switch inputId="TEST2" disabled={true} />
     );
 }
 ```
