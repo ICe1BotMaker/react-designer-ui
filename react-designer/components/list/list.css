@@ -1,0 +1,11 @@
+.rd-ui-list-ul {
+    list-style-type: none;
+}
+
+.rd-ui-list-ul li {
+    padding: 20px 15px;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    margin-top: -1px;
+    color: rgb(54, 54, 54);
+}

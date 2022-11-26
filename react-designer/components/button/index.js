@@ -15,8 +15,4 @@ export default function Button({ key, onClick = Function, disabled = Boolean, ch
         }, 
         children
     )
-
-    // return (
-    //     <button key={key} style={style} className={classes} onClick={handleOnClick}>{children}</button>
-    // )
 }

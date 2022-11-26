@@ -10,6 +10,4 @@ export default function Tag({ type, children, style = {}, onClick = Function }) 
             children
         )
     )
-
-    // <div className={classes} style={style} onClick={onClick}>{children}</div>
 }
