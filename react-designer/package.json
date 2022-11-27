@@ -1,7 +1,7 @@
 {
   "name": "react-designer-ui",
   "description": "React Designer, Library.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "main": "index.js",
   "keywords" : ["react", "component", "design"],
