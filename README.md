@@ -112,6 +112,6 @@ Here's a simple example of creating a ProgressBar:
 - [x] ver 1.0.1 ~ 1.0.3 : Bug Fixed
 - [x] ver 1.0.4 : Update ( return jsx => return React-Element )
 - [x] ver 1.0.5 : Update Input ( disabled ), Tag Component
-- [x] ver 1.0.6 : Update List, Switch Compontent
+- [x] ver 1.0.6 : Update List, Switch Component
 - [x] ver 1.0.7 : Update Loading Compontent
-- [x] ver 1.0.8 : Update ProgressBar Compontent
+- [x] ver 1.0.8 : Update ProgressBar Component
