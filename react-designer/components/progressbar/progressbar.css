@@ -1,0 +1,11 @@
+.rd-ui-percentage {
+    width: 100%;
+    height: 5px;
+}
+
+.rd-ui-percentage-mov {
+    width: 0;
+    height: 5px;
+    background: rgb(93, 93, 255);
+    transition: width 0.25s;
+}
