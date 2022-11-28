@@ -102,6 +102,7 @@ Here's a simple example of creating a ProgressBar:
 + [List](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/list)
 + [Switch](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/switch)
 + [Loading](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/loading)
++ [ProgressBar](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/progressbar)
 
 <br>
        
