@@ -1,7 +1,7 @@
 <image src="https://ifh.cc/g/AwamJW.png">
 <div align="center">
   <h1>React Designer UI</h1>
-  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-1.0.7-green?style=flat-square">
+  <p>React Designer UI Library. (npm)</p> <image src="https://img.shields.io/badge/npm%20package-1.0.8-green?style=flat-square">
   <br><br>
   <h3><b>Skills</b></h3>
   <image src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
@@ -85,6 +85,13 @@ Here's a simple example of creating a Loading:
 ```
 
 <br>
+    
+Here's a simple example of creating a ProgressBar:
+```js
+<ProgressBar percentage={100} />
+```
+
+<br>
        
 ## Components
 --------------
@@ -107,3 +114,4 @@ Here's a simple example of creating a Loading:
 - [x] ver 1.0.5 : Update Input ( disabled ), Tag Component
 - [x] ver 1.0.6 : Update List, Switch Compontent
 - [x] ver 1.0.7 : Update Loading Compontent
+- [x] ver 1.0.8 : Update ProgressBar Compontent
