@@ -18,14 +18,12 @@
 <br><br>
     
 ## Installation
---------------
-+ Available as an npm package.
+Available as an npm package.
 ```
 $ npm install react-designer-ui
 ```
 
 ## Usage
---------------
 First Setting:
 ```js
 import { /* Component Name */ } from 'react-designer-ui';
@@ -103,8 +101,6 @@ Here's a simple example of creating a ProgressBar:
 + [Switch](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/switch)
 + [Loading](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/loading)
 + [ProgressBar](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/progressbar)
-
-<br>
        
 ## Version
 --------------
