@@ -89,8 +89,6 @@ Here's a simple example of creating a ProgressBar:
 <ProgressBar percentage={100} />
 ```
 
-<br>
-       
 ## Components
 + [Button](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/button)
 + [Modal](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/modal)
