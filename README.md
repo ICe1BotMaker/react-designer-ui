@@ -92,7 +92,6 @@ Here's a simple example of creating a ProgressBar:
 <br>
        
 ## Components
---------------
 + [Button](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/button)
 + [Modal](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/modal)
 + [Input](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/input)
@@ -103,7 +102,6 @@ Here's a simple example of creating a ProgressBar:
 + [ProgressBar](https://github.com/ICe1BotMaker/react-designer-ui/tree/main/react-designer/components/progressbar)
        
 ## Version
---------------
 - [x] ver 0.0.1 : Update Button, Modal Component
 - [x] ver 1.0.0 : Update Input Component
 - [x] ver 1.0.1 ~ 1.0.3 : Bug Fixed
